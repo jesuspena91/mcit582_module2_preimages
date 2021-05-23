@@ -24,13 +24,13 @@ def hash_preimage(target_string):
     	if (binary_random_num[-len(target_string):] == target_string):
     		break
 
-    #print(target_string)
+    # print(target_string)
     # print(binary_random_num)
     # print(binary_random_num[-len(target_string):])
     # print(type(binary_random_num))
     # print(binary_random_num.encode('utf-8'))
     # print(type(binary_random_num.encode('utf-8')))
 
-    return(binary_random_num.encode('utf-8'))
+    return(random_num.encode('utf-8'))
 
 #hash_preimage('011010')
