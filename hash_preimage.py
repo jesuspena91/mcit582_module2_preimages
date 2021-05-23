@@ -23,15 +23,14 @@ def hash_preimage(target_string):
 
     	if (binary_random_num[-len(target_string):] == target_string):
     		break
-    return(binary_random_num)
-    # nonce = b'\x00'
-    # return(nonce)
 
     #print(target_string)
-    #print()
-    #print(binary_random_num)
-    #print()
-    #print(binary_random_num[-len(target_string):])
-    #print(type(binary_random_num))
+    # print(binary_random_num)
+    # print(binary_random_num[-len(target_string):])
+    # print(type(binary_random_num))
+    # print(binary_random_num.encode('utf-8'))
+    # print(type(binary_random_num.encode('utf-8')))
 
-hash_preimage('011010')
+    return(binary_random_num.encode('utf-8'))
+
+#hash_preimage('011010')
