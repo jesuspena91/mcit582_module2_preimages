@@ -23,8 +23,7 @@ def hash_preimage(target_string):
 
     	if (binary_random_num[-len(target_string):] == target_string):
     		break
-
- 	return(binary_random_num)
+    return(binary_random_num)
     # nonce = b'\x00'
     # return(nonce)
 
@@ -35,4 +34,4 @@ def hash_preimage(target_string):
     #print(binary_random_num[-len(target_string):])
     #print(type(binary_random_num))
 
-#hash_preimage('011010')
+hash_preimage('011010')
