@@ -31,6 +31,7 @@ def hash_preimage(target_string):
     # print(binary_random_num.encode('utf-8'))
     # print(type(binary_random_num.encode('utf-8')))
 
-    return(random_num.encode('utf-8'))
+    #print(random_num)
+    return(random_num)
 
 #hash_preimage('011010')
